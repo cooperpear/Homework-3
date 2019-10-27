@@ -20,7 +20,7 @@ function myPassword() {
     var i = 0
     if (charnum < 8 || charnum > 128) {
         alert("Incorrect password length");
-        return
+        return myPassword();
     }
 
     while (i < charnum) {
@@ -47,7 +47,7 @@ function myPassword() {
     document.getElementById("passworddisplay").innerText = password.slice(0).join("");
 }
 
-function copypassword() {
+function copyPassword() {
 
     var text = document.getElementById("passworddisplay");
     text.focus();
