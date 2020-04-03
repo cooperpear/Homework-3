@@ -1,9 +1,7 @@
 var alphaarray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var validlowercase = false;
 var password = [];
-
 var capsarray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-
 var specialarray = ["!", "#", "$", "%", "&", "'", "*", "+", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "^", "_", "`", "|", "~", ";"];
 
 
@@ -17,6 +15,8 @@ function myPassword() {
     var caps = confirm("would you like to use Upper case?");
 
     var charnum = parseInt(prompt("How many characters would you like your password to be (8-128)"));
+    
+    //logic for password input
     var i = 0
     if (charnum < 8 || charnum > 128) {
         alert("Incorrect password length");
