@@ -6,7 +6,11 @@ Password Generator is a secure password generation tool.
 
 Open password generator in any web browser. Make sure the style and javascript files are located in the same folder as the HTML file. 
 
-
+## Built With
+HTML
+VS Code
+Javascript
+Bootstrap
 
 ## Usage
 
@@ -20,32 +24,14 @@ Please make sure to update tests as appropriate.
 ## License
 Copyleft Cooper Pearson 2019
 
-
-
-
-
-
-
-
-
-Prerequisites
-A computer, and a web browser
-
-
-
-Built With
-HTML
-VS Code
-Javascript
-Bootstrap
-
-
-Authors
+## Author
 Cooper Pearson
 
-License
-This project is copyrighted to Cooper Pearson.
 
-Acknowledgments
-My tutor, Sangeetha
-Walter Perry
+
+
+
+
+
+
+
