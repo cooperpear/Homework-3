@@ -5,7 +5,7 @@ var capsarray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 var specialarray = ["!", "#", "$", "%", "&", "'", "*", "+", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "^", "_", "`", "|", "~", ";"];
 
 
-$('textarea').autoResize();
+
 function myPassword() {
 
     var special = confirm("would you like to use special characters?");
