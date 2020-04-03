@@ -5,7 +5,7 @@ var capsarray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 var specialarray = ["!", "#", "$", "%", "&", "'", "*", "+", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "^", "_", "`", "|", "~", ";"];
 
 
-
+$('textarea').autoResize();
 function myPassword() {
 
     var special = confirm("would you like to use special characters?");
@@ -15,7 +15,7 @@ function myPassword() {
     var caps = confirm("would you like to use Upper case?");
 
     var charnum = parseInt(prompt("How many characters would you like your password to be (8-128)"));
-    
+
     //logic for password input
     var i = 0
     if (charnum < 8 || charnum > 128) {
@@ -44,12 +44,12 @@ function myPassword() {
     }
 
     console.log(password);
-    document.getElementById("passworddisplay").innerText = password.slice(0).join("");
+    document.getElementById("password-display").innerText = password.slice(0).join("");
 }
 
 function copyPassword() {
 
-    var text = document.getElementById("passworddisplay");
+    var text = document.getElementById("password-display");
     text.focus();
     text.select();
     document.execCommand("Copy");
