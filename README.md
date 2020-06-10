@@ -1,31 +1,27 @@
 # Password Generator
+Password Generator is a secure password generation tool. Very basic javascript logic demonstration. 
 
-Password Generator is a secure password generation tool. 
-
-## Installation
-
-Open password generator in any web browser. Make sure the style and javascript files are located in the same folder as the HTML file. 
+## Deployed
+https://cooperpear.github.io/Password-Generator/
 
 ## Built With
-HTML
-VS Code
-Javascript
+HTML5<br>
+Javascript<br>
 Bootstrap
 
-## Usage
+## Authors
+Cooper Pearson
 
-Randomly Generates a secure password using 76 unique characters. 
+## Screenshots
+![Home](https://github.com/cooperpear/Password-Generator/blob/master/password.png?raw=true "Home")
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
-
 ## License
-Copyleft Cooper Pearson 2019
+Copyright 2019
 
-## Author
-Cooper Pearson
+
 
 
 
