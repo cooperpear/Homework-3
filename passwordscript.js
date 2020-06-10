@@ -34,7 +34,6 @@ function myPassword() {
             password.push(capsarray[index])
             i++
         }
-
         if (special == true && i < charnum) {
             var index = Math.floor(Math.random() * 24)
             password.push(specialarray[index])
